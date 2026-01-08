@@ -25,10 +25,10 @@ To address this, the notebook explores how traditional techniques—such as box 
 To run this notebook:
 
 1. Install Tesseact OCR
-1.a. See https://tesseract-ocr.github.io/tessdoc/Installation.html
+- See https://tesseract-ocr.github.io/tessdoc/Installation.html
 2. Install Dependencies
-2.a. (Optional but suggested) Create a venv `python -m venv .venv && source .venv/bin/activate`
-2.b. (Optional) Adjust `--extra-index-url https://download.pytorch.org/whl/cu126` in `requirements.txt` for your cuda version
-2.c.`pip install -r ./requirements.txt`
+- (Optional but suggested) Create a venv `python -m venv .venv && source .venv/bin/activate`
+- (Optional) Adjust `--extra-index-url https://download.pytorch.org/whl/cu126` in `requirements.txt` for your cuda version
+- Install requirements: `pip install -r ./requirements.txt`
 3. Setup .env
-3.a. Initialize with `OPENAI_API_KEY=**YOUR_APIKEY_HERE**` (Running the whole notebook runs 8 calls to OpenAI and at the time of creation cost about $0.07 total) 
+- Initialize with `OPENAI_API_KEY=**YOUR_APIKEY_HERE**` (Running the whole notebook runs 8 calls to OpenAI and at the time of creation cost about $0.07 total) 
